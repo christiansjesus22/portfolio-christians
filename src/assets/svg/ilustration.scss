@@ -1,0 +1,65 @@
+.cls-1{fill:#634e42;}
+.cls-2{fill:#f08b80;}
+.cls-3{fill:#1d1d1b;}
+.cls-4{fill:#f0887c;}
+.cls-5{fill:#575756;}
+.cls-6{fill:#3c3c3b;}
+.cls-7{fill:#d9d9d9;}
+.cls-8{fill:#f29100;}
+.cls-9{fill:#1a2e35;}
+.cls-10{fill:#7a6a58;}
+.cls-11{fill:#00a099;}
+.cls-12{fill:#fff;}
+.cls-13{fill:#ececec;}
+
+
+.cls-1-1{fill:#009ee2;opacity:0.25;}
+.cls-2-2{fill:#d9d9d9;}
+.cls-3-3{fill:#1d70b7;}
+.cls-4-4{fill:#c6c6c5;}
+
+
+
+#brazos {
+    transform-origin: center; 
+    animation: moveHands 3s linear infinite;
+    
+  }
+
+  #cabeza {
+    transform-origin: center; 
+    animation: moveHead 10s linear infinite; 
+    animation-delay: 2s
+
+  }
+
+    
+
+
+    [data-name="seccion01"] {
+      animation: move 3s ease-in-out infinite;
+    
+    }
+
+    [data-name="seccion02"] {
+      animation: move 3.2s ease-in-out infinite;
+    }
+    [data-name="seccion03"] {
+      animation: move 3.3s ease-in-out infinite;
+    }
+    
+    [data-name="seccion04"] {
+      animation: move 3.4s ease-in-out infinite;
+    }
+
+    [data-name="seccion05"]{
+      animation: move 3.5s ease-in-out infinite;
+    }
+
+    [data-name="seccion06"]{
+      animation: move 3.6s ease-in-out infinite;
+    }
+
+    .ilustration{
+      width: 120vh;
+    }

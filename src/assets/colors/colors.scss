@@ -1,0 +1,118 @@
+/* Light Theme */
+$font-color: #5e5e5e;
+$font-color-hover: #2e2e2e;
+$font-color-inerit: #ffffff;
+$background-color: #f8f8fb;
+$background-inerit: #ffffff;
+$box-shadow: 0 0 1.875em 0.5rem rgb(113 113 113 / 17%);
+$box-shadow-nav: 0.0625rem 0.0625rem 1.875rem 0 rgba(128, 128, 128, 0.1);
+$box-shadow-color: rgba(12 12 12 / 19%);
+$border-color: #e0e6ed;
+$input-border: #e6e6e6;
+$input-border-focus: #a0a0a0;
+$placeholder: #d4d4d4;
+
+
+/* Dark Theme */
+$font-color-dark: #9a9a9a;
+$font-color-hover-dark: #e9e9e9;
+$font-color-inerit-dark: #000000;
+$background-color-dark: #2c2c2c;
+$background-inerit-dark: #000000;
+$box-shadow-dark: 0 0 1.875em 0.5rem rgb(255 255 255 / 17%);
+$box-shadow-dark-color: rgb(255 255 255 / 10%);
+$box-shadow-nav-dark: 0.1875rem 0.1875rem 1.875rem 0 rgba(113, 113, 113, 0.28);
+$border-color-dark: #252525;
+$input-border-dark: #3f3f3f;
+$input-border-dark-focus: #aaaaaa;
+$placeholder-dark: #5c5c5c;
+
+
+/* Root Colors Theme */
+
+
+:root {
+	--color-primary: #2C3539;
+	--color-primary-rgb: 44,53,57;
+	--color-primary-contrast: #ffffff;
+	--color-primary-contrast-rgb: 255,255,255;
+	--color-primary-shade: #272f32;
+	--color-primary-tint: #41494d;
+
+	--color-secondary: #FFC000;
+	--color-secondary-rgb: 255,192,0;
+	--color-secondary-contrast: #000000;
+	--color-secondary-contrast-rgb: 0,0,0;
+	--color-secondary-shade: #e0a900;
+	--color-secondary-tint: #ffc61a;
+
+	--color-tertiary: #2c3539;
+	--color-tertiary-rgb: 44,53,57;
+	--color-tertiary-contrast: #ffffff;
+	--color-tertiary-contrast-rgb: 255,255,255;
+	--color-tertiary-shade: #272f32;
+	--color-tertiary-tint: #41494d;
+
+	--color-success: #7d827f;
+	--color-success-rgb: 125,130,127;
+	--color-success-contrast: #000000;
+	--color-success-contrast-rgb: 0,0,0;
+	--color-success-shade: #6e7270;
+	--color-success-tint: #8a8f8c;
+
+	--color-warning: #ffc409;
+	--color-warning-rgb: 255,196,9;
+	--color-warning-contrast: #000000;
+	--color-warning-contrast-rgb: 0,0,0;
+	--color-warning-shade: #e0ac08;
+	--color-warning-tint: #ffca22;
+
+	--color-danger: #1F2628;
+	--color-danger-rgb: 31,38,40;
+	--color-danger-contrast: #ffffff;
+	--color-danger-contrast-rgb: 255,255,255;
+	--color-danger-shade: #1b2123;
+	--color-danger-tint: #353c3e;
+
+	--color-light: #2c3539;
+	--color-light-rgb: 44,53,57;
+	--color-light-contrast: #ffffff;
+	--color-light-contrast-rgb: 255,255,255;
+	--color-light-shade: #272f32;
+	--color-light-tint: #41494d;
+
+	--color-medium: #5f5f5f;
+	--color-medium-rgb: 95,95,95;
+	--color-medium-contrast: #ffffff;
+	--color-medium-contrast-rgb: 255,255,255;
+	--color-medium-shade: #545454;
+	--color-medium-tint: #6f6f6f;
+
+	--color-dark: #f6f8fc;
+	--color-dark-rgb: 246,248,252;
+	--color-dark-contrast: #000000;
+	--color-dark-contrast-rgb: 0,0,0;
+	--color-dark-shade: #d8dade;
+	--color-dark-tint: #f7f9fc;
+
+
+           /* Glrecordar cam*/
+
+
+           --color-muted: #6c757d;
+           --color-muted-rgb: 108, 117, 125, 0.15;
+           --color-muted-contrast: #ffffff;
+           --color-muted-tint: #7b838a;
+       
+       
+       
+           --color-transparent: rgb(0, 0, 0, 0);
+           --color-transparent-contrast: #92949c;
+       
+		   .icon-50 { font-size: 50px; }
+		   .icon-30 { font-size: 30px; }
+		   .icon-20 { font-size: 20px; }
+       
+
+}
+

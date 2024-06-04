@@ -1,0 +1,55 @@
+<!-- section formulario -->
+<div id="contact"  class="container py-5">
+    <div class="row py-5">
+        <div class="col-sm-12">
+            <div class="card p-4 gradient shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <h3 class="fw-bold text-primary">Entrar en Contacto</h3>
+                            <p class="card-text ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                                sunt
+                                voluptas beatae ipsam, saepe voluptate laborum laboriosam ex,
+                                similique
+                                dolor a amet quae, fuga nisi! Consectetur amet laboriosam
+                                perspiciatis
+                                fugit.
+                            </p>
+                        </div>
+                       
+                        <form  [formGroup]="formulario" (ngSubmit)="sendEmail ()" >
+                        
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email </label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"  formControlName="email" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">nombre</label>
+                            <input type="tex" class="form-control" formControlName="name" placeholder="say my name ">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">telefono</label>
+                            <input class="form-control"  formControlName="phone" placeholder="92-0000-0000" mask="(00)-0000-0000" >
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"  formControlName="subject"  placeholder="contratacion">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" style="height:100% " formControlName="message"  placeholder="hola como estas ?" ></textarea>
+                          </div>
+                          <div class="form-action">
+                            <!-- desabilitamos el  boton  de login cuandoo el formulario se encuentre  en  invalido-->
+                            <button [disabled]="formulario.invalid" class="btn btn-primary" >enviar</button>            
+                        </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
